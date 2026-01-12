@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const STORAGE_API_KEY = 'admin_key';
+const STORAGE_API_KEY = 'VITE_ADMIN_KEY';
 
 const getApiKey = () => {
   let key = localStorage.getItem(STORAGE_API_KEY);
